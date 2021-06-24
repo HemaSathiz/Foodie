@@ -1,4 +1,4 @@
-package com.sample.myapplication
+package com.sample.myapplication.ui.recepies
 
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
@@ -9,8 +9,11 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
+import com.sample.myapplication.R
 import com.sample.myapplication.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
